@@ -244,7 +244,7 @@ async def start_command(client: Client, message: Message):
                 except:
                     continue
         reply_markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton("💝 AskMovies", url='https://t.me/AskMovies4')],
+            [InlineKeyboardButton("💝 Indian_HDT", url='https://t.me/indian_tha')],
             [
                 InlineKeyboardButton("💸 ᴘʀᴇᴍɪᴜᴍ", callback_data="buy_prem"),
                 InlineKeyboardButton("😊 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="about")
