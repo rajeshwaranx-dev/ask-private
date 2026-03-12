@@ -81,27 +81,27 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/trinityXmods/53")
 # Set to TRUE to activate payments in the bot and earn money.
 USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" else False) and (USE_SHORTLINK) else False
 # Enter your UPI ID for receiving payments.
-UPI_ID = os.environ.get("UPI_ID", "sendrajbooks@fam")
+UPI_ID = os.environ.get("UPI_ID", "bharathp0203@okicici")
 # Enter the direct image URL of your UPI QR code (used for payment).
-UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://envs.sh/Vpg.jpg")
+UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://graph.org/file/dff71e87b573008759d1d-6fec38570a66f9fc98.jpg")
 #No need to change anything here.
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/{OWNER_TAG}")
 # Define subscription durations and their respective prices:
 # Duration: 7 Days
 # Only change the prices and currency, nothing else.
-PRICE1 = os.environ.get("PRICE1", "₹200")
+PRICE1 = os.environ.get("PRICE1", "₹19")
 
 # Duration: 1 Month
-PRICE2 = os.environ.get("PRICE2", "₹500")
+PRICE2 = os.environ.get("PRICE2", "₹49")
 
 # Duration: 3 Months
-PRICE3 = os.environ.get("PRICE3", "₹800")
+PRICE3 = os.environ.get("PRICE3", "₹99")
 
 # Duration: 6 Months
-PRICE4 = os.environ.get("PRICE4", "₹1500")
+PRICE4 = os.environ.get("PRICE4", "₹199")
 
 # Duration: 1 Year
-PRICE5 = os.environ.get("PRICE5", "₹2850")
+PRICE5 = os.environ.get("PRICE5", "₹299")
 
 
 # Message shown to users when they are required to join a channel or group (force subscription prompt).
